@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="FAREL STORE - layanan top up game dan pembayaran digital.">
+  <title>FAREL STORE — Digital Store</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement"><span class="live-dot"></span> Layanan pemesanan online FAREL STORE <span class="announcement-note">• Pesan langsung melalui WhatsApp</span></div>
+  <header class="site-header">
+    <a class="brand" href="#" data-page="home" aria-label="FAREL STORE beranda">
+      <span class="brand-mark">F<span>F</span></span>
+      <span class="brand-copy"><b>FAREL STORE</b><small>DIGITAL PAYMENT & TOP UP</small></span>
+    </a>
+    <button class="mobile-menu" id="mobileMenu" aria-label="Buka menu">☰</button>
+    <nav id="mainNav">
+      <a href="#home" class="nav-link active" data-page="home">Beranda</a>
+      <a href="#products" class="nav-link" data-page="products">Produk</a>
+      <a href="#how" class="nav-link" data-page="how">Cara Pesan</a>
+      <a href="#contact" class="nav-link" data-page="contact">Kontak</a>
+    </nav>
+    <button class="login-button" id="openLogin"><span>♙</span> Masuk / Daftar</button>
+  </header>
+
+  <main>
+    <section class="page active" id="page-home">
+      <section class="hero wrap" id="home">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="spark">✦</span> TOKO DIGITAL PILIHANMU</div>
+          <h1>Semua kebutuhan<br>digital, <em>lebih mudah.</em></h1>
+          <p>Top up game, pulsa, paket internet, token listrik, dan saldo e-wallet. Pilih produk, isi detail, lalu lanjutkan pesanan melalui WhatsApp.</p>
+          <div class="hero-actions">
+            <button class="primary-button" data-goto="products">Jelajahi Produk <span>↗</span></button>
+            <button class="secondary-button" data-goto="how">Cara pemesanan</button>
+          </div>
+          <div class="trust-row"><span>✓ Pemesanan praktis</span><span>✓ Admin WhatsApp</span><span>✓ Harga transparan</span></div>
+        </div>
+        <div class="hero-art">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="hero-glow"></div>
+          <div class="phone-card">
+            <div class="phone-top"><span>FAREL STORE</span><span class="phone-dots">•••</span></div>
+            <div class="phone-balance"><small>LAYANAN DIGITAL</small><strong>All in one.</strong><span>Top up & pembayaran</span></div>
+            <div class="mini-grid">
+              <div><i>🎮</i><small>Game</small></div><div><i>📱</i><small>Pulsa</small></div>
+              <div><i>⚡</i><small>Listrik</small></div><div><i>💳</i><small>E-wallet</small></div>
+            </div>
+            <div class="phone-bottom"><span class="green-check">✓</span><span>Pesan dengan mudah</span><b>→</b></div>
+          </div>
+          <div class="floating-chip chip-top">⚡ Cepat & praktis</div>
+          <div class="floating-chip chip-bottom">✦ FAREL STORE</div>
+        </div>
+      </section>
+
+      <section class="wrap stats">
+        <div><b>01</b><span>Pilih produk</span></div><div><b>02</b><span>Isi detail pesanan</span></div><div><b>03</b><span>Konfirmasi via WhatsApp</span></div>
+      </section>
+
+      <section class="wrap section-block" id="featured">
+        <div class="section-heading"><div><div class="eyebrow">KATEGORI LAYANAN</div><h2>Apa yang kamu butuhkan?</h2></div><button class="text-button" data-goto="products">Lihat semua produk ↗</button></div>
+        <div class="category-grid">
+          <button class="category-card" data-category="game"><span class="category-icon purple">🎮</span><b>Top Up Game</b><small>Diamond & voucher game</small><span class="card-arrow">↗</span></button>
+          <button class="category-card" data-category="pulsa"><span class="category-icon blue">📱</span><b>Pulsa & Data</b><small>Pulsa dan paket internet</small><span class="card-arrow">↗</span></button>
+          <button class="category-card" data-category="digital"><span class="category-icon orange">⚡</span><b>Tagihan Digital</b><small>Token listrik dan lainnya</small><span class="card-arrow">↗</span></button>
+          <button class="category-card" data-category="wallet"><span class="category-icon green">💳</span><b>Saldo E-wallet</b><small>Isi saldo dompet digital</small><span class="card-arrow">↗</span></button>
+        </div>
+      </section>
+
+      <section class="wrap promo">
+        <div><div class="eyebrow">BUTUH BANTUAN?</div><h2>Pesan langsung, dibantu admin.</h2><p>Jika bingung memilih produk, tanyakan dulu kepada admin FAREL STORE.</p></div>
+        <button class="light-button" id="askAdmin">Hubungi WhatsApp <span>↗</span></button>
+      </section>
+    </section>
+
+    <section class="page wrap inner-page" id="page-products">
+      <div class="page-heading"><div class="eyebrow">KATALOG FAREL STORE</div><h1>Pilih produkmu.</h1><p>Pilih layanan yang dibutuhkan. Harga final akan dikonfirmasi admin sebelum pembayaran.</p></div>
+      <div class="filter-row" id="filters">
+        <button class="filter active" data-filter="all">Semua</button><button class="filter" data-filter="game">Top Up Game</button><button class="filter" data-filter="pulsa">Pulsa & Data</button><button class="filter" data-filter="digital">Token & Tagihan</button><button class="filter" data-filter="wallet">E-wallet</button>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+      <p class="notice"><span>ⓘ</span> Harga dan ketersediaan dapat berubah. Admin akan mengonfirmasi total pesanan sebelum kamu membayar.</p>
+    </section>
+
+    <section class="page wrap inner-page" id="page-how">
+      <div class="page-heading"><div class="eyebrow">MUDAH DAN PRAKTIS</div><h1>Cara pemesanan.</h1><p>Ikuti langkah sederhana berikut untuk memesan di FAREL STORE.</p></div>
+      <div class="steps-grid">
+        <article class="step-card"><span class="step-number">01</span><div class="step-icon">🛍️</div><h3>Pilih produk</h3><p>Buka katalog dan pilih layanan yang kamu perlukan.</p></article>
+        <article class="step-card"><span class="step-number">02</span><div class="step-icon">📝</div><h3>Isi detail pesanan</h3><p>Masukkan nomor tujuan atau ID game dengan teliti.</p></article>
+        <article class="step-card"><span class="step-number">03</span><div class="step-icon">💬</div><h3>Kirim ke WhatsApp</h3><p>Rincian pesanan akan disiapkan menjadi pesan WhatsApp.</p></article>
+        <article class="step-card"><span class="step-number">04</span><div class="step-icon">✓</div><h3>Bayar & konfirmasi</h3><p>Tunggu total dari admin, bayar, lalu kirim konfirmasi pembayaran.</p></article>
+      </div>
+      <div class="warning-panel"><b>Keamanan transaksi</b><p>Periksa kembali nomor tujuan dan nominal. Jangan pernah membagikan PIN, password, atau kode OTP kepada siapa pun, termasuk admin.</p></div>
+    </section>
+
+    <section class="page wrap inner-page" id="page-contact">
+      <div class="page-heading"><div class="eyebrow">KAMI SIAP MEMBANTU</div><h1>Hubungi FAREL STORE.</h1><p>Untuk mengecek harga, ketersediaan produk, atau bertanya tentang pesanan.</p></div>
+      <div class="contact-panel"><div class="contact-symbol">✦</div><div><h2>Butuh bantuan admin?</h2><p>Tekan tombol di bawah untuk membuka percakapan WhatsApp dengan FAREL STORE.</p><button class="primary-button" id="contactAdmin">Chat WhatsApp <span>↗</span></button></div></div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="wrap footer-inner"><a class="brand" href="#" data-page="home"><span class="brand-mark">F<span>F</span></span><span class="brand-copy"><b>FAREL STORE</b><small>DIGITAL PAYMENT & TOP UP</small></span></a><span>© <span id="year"></span> FAREL STORE. All rights reserved.</span><span class="footer-note">Pesan aman • Konfirmasi langsung dengan admin</span></div></footer>
+
+  <!-- Login screen: visual front-end only. Real authentication needs a secure backend. -->
+  <div class="auth-overlay" id="authOverlay" aria-hidden="true">
+    <div class="auth-shell">
+      <button class="auth-close" id="closeLogin" aria-label="Tutup">×</button>
+      <div class="auth-visual"><div class="auth-brand"><span class="brand-mark">F<span>F</span></span><b>FAREL STORE</b></div><div class="auth-visual-content"><div class="auth-orb">✦</div><h2>Selamat datang<br>di dunia digital.</h2><p>Satu tempat untuk kebutuhan top up dan pembayaran digitalmu.</p><div class="auth-points"><span>✓ Praktis</span><span>✓ Mudah</span><span>✓ Dibantu admin</span></div></div><small class="auth-copy">FAREL STORE • DIGITAL SERVICE</small></div>
+      <div class="auth-form"><div class="auth-mobile-brand">FAREL STORE</div><div class="eyebrow">AREA PELANGGAN</div><h2>Masuk ke akun</h2><p class="auth-subtitle">Tampilan akun pelanggan FAREL STORE.</p>
+        <div class="auth-tabs"><button class="auth-tab active" data-auth="login">Masuk</button><button class="auth-tab" data-auth="register">Daftar</button></div>
+        <form id="authForm"><label for="authName" id="nameLabel" class="hidden">Nama lengkap</label><input id="authName" class="hidden" type="text" placeholder="Nama lengkap" autocomplete="name"><label for="authEmail">Email atau nama pengguna</label><input id="authEmail" type="text" placeholder="Masukkan email atau nama pengguna" autocomplete="username"><label for="authPassword">Kata sandi</label><input id="authPassword" type="password" placeholder="Masukkan kata sandi" autocomplete="current-password"><button class="primary-button auth-submit" type="submit">Lanjutkan <span>→</span></button></form>
+        <div class="auth-demo-note"><b>Informasi akun</b><span>Fitur login dan pendaftaran belum diaktifkan. Hubungkan backend autentikasi yang aman sebelum menerima akun pelanggan.</span></div>
+        <button class="guest-button" id="continueGuest">Lanjutkan sebagai pengunjung</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Order dialog -->
+  <div class="modal-overlay" id="orderOverlay" aria-hidden="true">
+    <div class="order-modal"><button class="modal-close" id="closeOrder">×</button><div class="eyebrow">FORM PEMESANAN</div><h2 id="orderTitle">Pesan produk</h2><p class="modal-intro">Isi data dengan benar. Pesanan akan dikirim ke WhatsApp admin.</p>
+      <form id="orderForm"><input type="hidden" id="selectedProduct"><div class="field"><label for="customerName">Nama pemesan</label><input id="customerName" required placeholder="Nama kamu"></div><div class="field"><label for="customerTarget" id="targetLabel">Nomor tujuan / ID pelanggan</label><input id="customerTarget" required placeholder="Masukkan nomor atau ID"></div><div class="field"><label for="customerDetail">Detail paket / nominal</label><input id="customerDetail" required placeholder="Contoh: 100 Diamond / Rp20.000"></div><div class="field"><label for="paymentMethod">Metode pembayaran yang diinginkan</label><select id="paymentMethod" required><option value="">Pilih metode pembayaran</option><option>Cash / Tunai</option><option>E-wallet / Transfer</option></select></div><div class="order-disclaimer">Total akhir dan biaya jasa akan dikonfirmasi admin sebelum pembayaran.</div><button class="primary-button full-button" type="submit">Kirim pesanan ke WhatsApp <span>↗</span></button></form>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="config.js"></script><script src="app.js"></script>
+</body>
+</html>
